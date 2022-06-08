@@ -28,6 +28,7 @@ pipeline {
 		echo "Deploying......."
 		echo "End of Stage Build..."
 		sh "pwd"
+		sh "ls -la"
             }
         }
         stage('4-Final') {
