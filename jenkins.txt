@@ -27,6 +27,7 @@ pipeline {
                 echo "Start of Stage Deploy..."
 		echo "Deploying......."
 		echo "End of Stage Build..."
+		sh "pwd"
             }
         }
         stage('4-Final') {
