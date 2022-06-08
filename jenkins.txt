@@ -30,6 +30,7 @@ pipeline {
 		echo "End of Stage Build..."
 		sh "pwd"
 		sh "ls -la"
+		sh "ls -la ~/"
             }
         }
         stage('4-Final') {
